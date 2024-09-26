@@ -1,0 +1,26 @@
+
+---
+
+### 3. **.gitignore**
+
+Este arquivo especifica quais arquivos e diretórios não devem ser incluídos no repositório.
+
+```plaintext
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Tkinter settings
+*.tcl
+*.bak
+
+# Database files
+biblioteca.db
+
+# Environments
+.env
+.venv
+
+# macOS
+.DS_Store
